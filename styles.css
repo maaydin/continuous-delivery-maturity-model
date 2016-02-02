@@ -208,7 +208,7 @@ a:focus {
     display: block;
 
     width: 900px;
-    height: 700px;
+    height: 600px;
     padding: 40px 60px;
 
     background-color: white;
@@ -424,11 +424,12 @@ a:focus {
 
 .maturity-model {
     width: 700px;
+    height: 700px;
     padding: 0;
 }
 
 .maturity-model img {
-    width: 100%;
+    height: 700px;
     text-align: center;
 }
 
