@@ -15,7 +15,7 @@
                 <span class="cd">Continuous Delivery</span>
                 <h1>Maturity<sup></sup></h1>
                 <span class="model">Model</span>
-                <span class="footnote">by <a href="http://twitter.com/maayd_in">@maayd_in</a> & <a href="http://twitter.com/zeldal">@zeldal</a></span>
+                <span class="footnote">by <a href="http://twitter.com/maayd_in">@maayd_in</a> & <a href="http://twitter.com/zeldalozdemir">@zeldalozdemir</a></span>
             </div>
             
             <div class="step past" data-x="0" data-y="-2500" id="principle" data-rotate="90" style="position: absolute; transform: translate(-50%, -50%) translate3d(0px, -2500px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(90deg) scale(1); transform-style: preserve-3d;">
@@ -101,6 +101,21 @@
                 <img src="images/bist-evolution.png">
             </div>
 
+            <div id="bist-teamcity" class="step past" data-x="7300" data-y="3000" data-z="-1000" data-scale="1" style="position: absolute; transform: translate(-50%, -50%) translate3d(2500px, -2800px, -1800px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(2); transform-style: preserve-3d;">
+                <h5>Teamcity</h5>
+                <ul>
+                    <li>6 Agent with 1000+ Configurations</li>
+                    <li>250+ Build, 750+ Deploy Configurations</li>
+                </ul>
+            </div>
+            <div id="bist-artifactory" class="step past" data-x="8300" data-y="4000" data-z="-1000" data-scale="1" style="position: absolute; transform: translate(-50%, -50%) translate3d(2500px, -2800px, -1800px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(2); transform-style: preserve-3d;">
+                <h3>Artifactory</h3>
+                <ul>
+                    <li>17 Local Repository (Maven/Yum/Npm/Nuget)</li>
+                    <li>40+ Proxy Repository to regulate Library/Software usages</li>
+                </ul>
+            </div>
+
             <div id="have-fun" class="step past" data-x="6000" data-y="4000" data-scale="2" style="position: absolute; transform: translate(-50%, -50%) translate3d(6000px, 4000px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(2); transform-style: preserve-3d;">
                 <p>have fun! ;)</p>
             </div>
@@ -120,6 +135,14 @@
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script type="text/javascript">
+/*            var caseStudies = ["1","2","3","4"];
+            var currentStudy = 0;
+            function caseStudyStep(e){
+                if(currentStudy > caseStudies.length)
+                return "ok";
+                else
+                    e.stopPropagation();
+            }*/
         $(document).ready(function() {
 
             impress().init();
