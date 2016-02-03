@@ -334,7 +334,6 @@ a:focus {
     transition-delay:         0.25s;
 }
 
-
 #release {
     width: 700px;
     text-align: center;
@@ -527,6 +526,39 @@ h1 {
     width: 950px;
     text-align: center;
     padding: 60px;
+}
+
+
+#bist-jindo {
+    width: 950px;
+    padding: 0;
+}
+
+#bist-jindo img {
+    width: 100%;
+}
+
+#bist-jindo b {
+    display: inline-block;
+    -webkit-transition: 2.5s;
+    -moz-transition:    2.5s;
+    -ms-transition:     2.5s;
+    -o-transition:      2.5s;
+    transition:         2.5s;
+}
+
+#bist-jindo .rotating {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform:    rotate(-3deg);
+    -ms-transform:     rotate(-3deg);
+    -o-transform:      rotate(-3deg);
+    transform:         rotate(-3deg);
+
+    -webkit-transition-delay: 2.25s;
+    -moz-transition-delay:    2.25s;
+    -ms-transition-delay:     2.25s;
+    -o-transition-delay:      2.25s;
+    transition-delay:         2.25s;
 }
 
 #bist-maturity p {
