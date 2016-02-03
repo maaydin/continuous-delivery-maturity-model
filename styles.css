@@ -476,6 +476,62 @@ h1 {
     text-align: center;
 }
 
+#bist-architecture {
+    width: 950px;
+    text-align: center;
+    list-style: initial;
+    padding: 30px;
+}
+
+#bist-architecture h1 {
+    font-size: 90px;
+}
+
+#bist-architecture ul {
+    width: 100%;
+    text-align: left;
+    list-style: initial;
+}
+
+#bist-teamcity {
+    width: 950px;
+    text-align: center;
+    padding: 60px;
+}
+
+#bist-ui {
+    width: 950px;
+    text-align: center;
+    padding: 60px;
+}
+
+#bist-microservice {
+    width: 950px;
+    text-align: center;
+    padding: 60px;
+}
+
+#bist-pipeline {
+    width: 950px;
+    text-align: center;
+    padding: 60px;
+}
+
+#bist-artifactory {
+    width: 950px;
+    text-align: center;
+    padding: 60px;
+}
+
+#bist-sonarqube {
+    width: 950px;
+    text-align: center;
+    padding: 60px;
+}
+
+#bist-maturity p {
+    padding: 60px;
+}
 
 #deploy-button {
     width: 950px;
