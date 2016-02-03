@@ -3,7 +3,7 @@
 
 /* additional styles just to make things look a bit nicer */
 body {
-    background: url(http://www.psdgraphics.com/file/colorful-triangles-background.jpg) no-repeat;
+    background: url(images/colorful-triangles-background.jpg) no-repeat;
     background-size: 250%;
     transition: background-size 1s ease-in;
     -moz-transition: background-size 1s ease-in;
