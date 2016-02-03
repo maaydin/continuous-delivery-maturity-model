@@ -368,7 +368,17 @@ a:focus {
     line-height: 64px;
     vertical-align: middle;
 }
+h1 {
+    font-size: 150px;
+    -webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+}
+#presentation-items li{
 
+}
 
 #improve .cd {
     display: block;
